@@ -6,7 +6,7 @@ print(names[0])
 
 # Add a new name
 names.append("Draco")
-
+print(names)
 # Sort names alphabetically
 names.sort()
 
