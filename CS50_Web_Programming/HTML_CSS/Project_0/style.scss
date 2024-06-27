@@ -1,9 +1,38 @@
 
 .search {
-  width: 1900px;
-  height: 60px;
-  background-color: #000;
-  text-align: center;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  form {
+      #entrada{
+        width: 400px;
+        height: 40px;
+        border-radius: 20px; /* Ajusta el radio para redondear las esquinas */
+        padding: 5px;
+        margin: 10px;
+      }
+
+      #entrada:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+      }
+
+    div{
+      display: flex;
+      justify-content: center; /* Alinea los elementos al final del contenedor */
+
+        input{
+          width: 150px;
+          height: 35px;
+          border-radius: 5px; /* Ajusta el radio para redondear las esquinas */
+          margin: 5px;
+        }
+        input:hover{
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+        }
+    }
+  }
 }
 
 .banner {
@@ -31,6 +60,17 @@ header {
   a:hover {
     color: grey;
     text-decoration: underline;
+  }
+}
+
+footer{
+  display: flex;
+  height: 400px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: flex-end;
+  h4{
+    font-size: 14px;
   }
 }
 
