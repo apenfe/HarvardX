@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Search</title>
-    <link rel="icon" type="image/x-icon" href="logo.png">
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Search</title>
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-<header>
-    <nav>
-        <a href="index.html">Google Search</a>
-    </nav>
-</header>
+        <header>
+            <nav>
+                <a href="index.html">Google Search</a>
+            </nav>
+        </header>
 
+        <div class="banner">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" width="300">
+            <span>Images</span>
+        </div>
 
+        <div class="search">
+            <form action="https://google.com/search">
+                <input id="entrada" type="text" name="q" class="form-control">
+                <input type="hidden" name="tbm" value="isch">
+                <div>
+                    <input type="submit" value="Search Images" >
+                </div>
+            </form>
+        </div>
 
-</body>
+        <footer>
+            <h4>Adrián Peñalver Fernández</h4>
+        </footer>
+
+    </body>
 </html>

@@ -1,22 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Search</title>
-    <link rel="icon" type="image/x-icon" href="logo.png">
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-<header>
-    <nav>
-        <a href="index.html">Google Search</a>
-    </nav>
-</header>
+        <header>
+            <nav>
+                <a href="index.html">Google Search</a>
+            </nav>
+        </header>
 
-</body>
+        <div id="avanzado">
+            <label>Búsqueda avanzada</label>
+            <hr/>
+        </div>
+
+        <div>
+            <div>
+                <label>Buscar páginas con...</label>
+            </div>
+            <div>
+                <label>Haz lo siguiente en el recuadro de búsqueda</label>
+            </div>
+        </div>
+
+        <div class="advance_search">
+            <form action="https://www.google.com/search">
+
+                <div>
+                    <div class="buscar">
+                        <label>todas estas palabras:</label>
+                    </div>
+                    <div  class="cuadro">
+                        <input id="varias_palabras" type="text" name="q" class="form-control">
+                    </div>
+                    <div class="instrucciones">
+                        <label>Escribe las palabras importantes: terrier ratonero tricolor</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="buscar">
+                        <label>esta palabra o frase exactas:</label>
+                    </div>
+                    <div class="cuadro">
+                        <input id="palabra_frase" type="text" name="q" class="form-control">
+                    </div>
+                    <div class="instrucciones">
+                        <label>Escribe las palabras exactas entre comillas: "terrier ratonero"</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="buscar">
+                        <label>cualquiera de estas palabras:</label>
+                    </div>
+                    <div class="cuadro">
+                        <input id="cualquier_palabra" type="text" name="q" class="form-control">
+                    </div>
+                    <div class="instrucciones">
+                        <label>Escribe OR entre todas las palabras que quieras: miniatura OR estándar</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="buscar">
+                        <label>ninguna de estas palabras:</label>
+                    </div>
+                    <div class="cuadro">
+                        <input id="ninguna_palabra" type="text" name="q" class="form-control">
+                    </div>
+                    <div class="instrucciones">
+                        <label>Añade un signo menos delante de las palabras que no quieras que aparezcan: -roedor, -"Jack Russell"</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <hr/>
+        <footer>
+            <h4>Adrián Peñalver Fernández</h4>
+        </footer>
+
+    </body>
 </html>

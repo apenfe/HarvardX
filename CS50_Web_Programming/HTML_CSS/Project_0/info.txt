@@ -103,5 +103,3 @@ Your website must meet the following requirements:
       consequence of a security feature implemented by Google.
 
 * The CSS you write should resemble Google’s own aesthetics.
-
-https://www.google.com/search?q=hola&sca_esv=e2999e5afe90a665&source=hp&ei=tHR9Zp7yHP_Ri-gPxNeiyAY&iflsig=AL9hbdgAAAAAZn2CxKvEVRkriILal0XJYm_YWIAnx0bE&ved=0ahUKEwienJvw_PuGAxX_6AIHHcSrCGkQ4dUDCBg&uact=5&oq=hola&gs_lp=Egdnd3Mtd2l6IgRob2xhMhEQLhiABBixAxjRAxiDARjHATIIEC4YgAQYsQMyBRAAGIAEMgUQABiABDILEC4YgAQY0QMYxwEyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyCxAuGIAEGMcBGK8BMgUQABiABEi_ElCBCFilC3ABeACQAQCYAYoDoAG5BaoBBzIuMS4wLjG4AQPIAQD4AQGYAgWgAscFqAIKwgIQEAAYAxjlAhjqAhiMAxiPAcICEBAuGAMY5QIY6gIYjAMYjwHCAg4QLhiABBixAxjRAxjHAcICCBAAGIAEGLEDwgIFEC4YgASYAwaSBwcxLjMuMC4xoAfBMA&sclient=gws-wiz

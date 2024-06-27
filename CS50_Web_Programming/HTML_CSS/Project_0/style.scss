@@ -39,8 +39,14 @@
   display: flex;
   height: 380px;
   padding: 20px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-end;
+
+  span{
+
+    color:#4285f4;
+    font:16px/16px roboto-regular, arial, sans-serif;
+  }
 
 }
 
@@ -71,6 +77,63 @@ footer{
   align-items: flex-end;
   h4{
     font-size: 14px;
+  }
+}
+
+#avanzado {
+
+  label{
+    margin-left:50px;
+    color: #d93025;
+    font-size: 20px;
+  }
+}
+
+.advance_search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  form {
+    margin-left: 30px;
+    div{
+
+      margin-left: 10px;
+      display: flex;
+      justify-content: left; /* Alinea los elementos al final del contenedor */
+      .buscar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 210px;
+        label{
+          font-size: 16px;
+        }
+      }
+      .cuadro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+          width: 400px;
+          height: 35px;
+          border-radius: 5px; /* Ajusta el radio para redondear las esquinas */
+          margin: 5px;
+        }
+        input:hover{
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+        }
+      }
+      .instrucciones{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 400px;
+        label{
+          font-size: 12px;
+        }
+      }
+    }
   }
 }
 
