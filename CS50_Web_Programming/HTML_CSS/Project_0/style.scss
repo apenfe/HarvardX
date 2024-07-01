@@ -91,7 +91,7 @@ footer{
 
 #info_busqueda {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   label{
     margin-left:50px;
@@ -128,7 +128,7 @@ footer{
         input{
           width: 400px;
           height: 35px;
-          border-radius: 5px; /* Ajusta el radio para redondear las esquinas */
+          border-radius: 5px;
           margin: 5px;
         }
         input:hover{
@@ -146,5 +146,18 @@ footer{
       }
     }
   }
+}
+
+#boton_avanzada input[type="submit"] {
+
+
+
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 2px;
 }
 

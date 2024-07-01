@@ -28,19 +28,22 @@
                 <label>Buscar páginas con...</label>
             </div>
             <div>
+                <label></label>
+            </div>
+            <div>
                 <label>Haz lo siguiente en el recuadro de búsqueda</label>
             </div>
         </div>
 
         <div class="advance_search">
-            <form action="https://www.google.com/search">
+            <form action="https://www.google.com/search" method="get">
 
                 <div>
                     <div class="buscar">
-                        <label>todas estas palabras:</label>
+                        <label for="allWords">todas estas palabras:</label>
                     </div>
                     <div  class="cuadro">
-                        <input id="varias_palabras" type="text" name="q" class="form-control">
+                        <input id="allWords" type="text" name="q" class="form-control">
                     </div>
                     <div class="instrucciones">
                         <label>Escribe las palabras importantes: terrier ratonero tricolor</label>
@@ -48,10 +51,10 @@
                 </div>
                 <div>
                     <div class="buscar">
-                        <label>esta palabra o frase exactas:</label>
+                        <label for="exactPhrase">esta palabra o frase exactas:</label>
                     </div>
                     <div class="cuadro">
-                        <input id="palabra_frase" type="text" name="q" class="form-control">
+                        <input id="exactPhrase" type="text" name="as_epq" class="form-control">
                     </div>
                     <div class="instrucciones">
                         <label>Escribe las palabras exactas entre comillas: "terrier ratonero"</label>
@@ -59,10 +62,10 @@
                 </div>
                 <div>
                     <div class="buscar">
-                        <label>cualquiera de estas palabras:</label>
+                        <label for="anyWords">cualquiera de estas palabras:</label>
                     </div>
                     <div class="cuadro">
-                        <input id="cualquier_palabra" type="text" name="q" class="form-control">
+                        <input id="anyWords" type="text" name="as_oq" class="form-control">
                     </div>
                     <div class="instrucciones">
                         <label>Escribe OR entre todas las palabras que quieras: miniatura OR estándar</label>
@@ -70,14 +73,17 @@
                 </div>
                 <div>
                     <div class="buscar">
-                        <label>ninguna de estas palabras:</label>
+                        <label for="noneWords">ninguna de estas palabras:</label>
                     </div>
                     <div class="cuadro">
-                        <input id="ninguna_palabra" type="text" name="q" class="form-control">
+                        <input id="noneWords" type="text" name="as_eq" class="form-control">
                     </div>
                     <div class="instrucciones">
                         <label>Añade un signo menos delante de las palabras que no quieras que aparezcan: -roedor, -"Jack Russell"</label>
                     </div>
+                </div>
+                <div id="boton_avanzada">
+                    <input type="submit" value="Advanced Search" >
                 </div>
             </form>
         </div>
